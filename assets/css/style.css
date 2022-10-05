@@ -1,0 +1,278 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: #111926;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1024px;
+  height: auto;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #27c718;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu .nav-links {
+  list-style: none;
+}
+
+.nav-menu .nav-links .nav-item {
+  margin: 0px 15px;
+}
+
+.nav-menu .nav-links .nav-item:hover {
+  color: #27c718;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media .social-links i {
+  font-size: 1.3rem;
+  margin: 0px 10px;
+}
+
+.social-media .social-links:hover {
+  color: #27c718;
+}
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero > div {
+  width: 50%;
+  height: auto;
+}
+
+.hero .hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-info h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-info p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn-hero {
+  width: 120px;
+  background-color: #145ed6;
+  text-align: center;
+  padding: 13px 9px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  animation: all 0.3s ease-in-out;
+}
+
+.btn-hero:hover {
+  background-color: #134fb1;
+}
+
+.hero .hero-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-section {
+  background-color: #192333;
+}
+
+.about-me {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+}
+
+.title-nav {
+  font-size: 1rem;
+  font-weight: 700;
+  /* margin: 20px 0px; */
+  text-align: center;
+}
+
+.info-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-me > div {
+  width: 50%;
+  height: auto;
+}
+
+.about-image img {
+  margin-right: 30px;
+}
+
+.about-image {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-project {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  color: #111926;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-info h3 {
+  color: #111926;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0px 10px;
+}
+
+.card-info p {
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+.btn-project {
+  font-size: 0.9rem;
+  color: #145ed6;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+#contact .title-nav {
+  margin: 20px 0px;
+}
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  background-color: #192333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .form-control {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #111926;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form .form-control:focus {
+  border: 1px solid #27c718;
+}
+
+.contact-form .form-control::placeholder {
+  color: #111926;
+}
+
+.btn-form {
+  width: 100%;
+  height: auto;
+  background-color: #145ed6;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-form:hover {
+  background-color: #134fb1;
+}
+
+footer {
+  background-color: #192333;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
