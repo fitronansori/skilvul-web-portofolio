@@ -180,7 +180,7 @@ header {
   align-items: center;
 }
 
-.list-project {
+.list-blog {
   display: flex;
   flex-wrap: wrap;
 }
@@ -189,7 +189,7 @@ header {
   width: 100%;
 }
 
-.card-project {
+.card-blog {
   width: 100%;
   height: auto;
   background-color: #fff;
@@ -221,8 +221,28 @@ header {
   padding: 10px;
 }
 
+/* Skills */
+.skills {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
 #contact .title-nav {
   margin: 20px 0px;
+}
+
+.skills-content {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.skills-icon i {
+  font-size: 3rem;
+  color: #145ed6;
 }
 
 .contact-form {
